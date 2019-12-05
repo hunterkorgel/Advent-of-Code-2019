@@ -1,4 +1,4 @@
-# Advent-of-Code-2019
+# Advent of Code 2019
 Personal work on the Advent of Code 2019 challenge. Each file contains part 1 and part 2 of each day's challenge.
 Each solution is written in Python 3.
 

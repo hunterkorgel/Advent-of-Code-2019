@@ -39,7 +39,6 @@ working_code = input_code.copy()
 
 
 def parse_opcode(opcode: int):
-
     opcode = str(opcode)
     mode1 = 0
     mode2 = 0
@@ -60,7 +59,7 @@ def parse_opcode(opcode: int):
     return [instruction, int(mode1), int(mode2), int(mode3)]
 
 
-def process_opcode(code: list, index: int, input: int = None) -> int:
+def process_opcode(code: list, index: int, input_parameter: int = None) -> int:
     # Process opcode first before trying to access full set of two or four
     opcode = code[index]
     opcode = parse_opcode(opcode)
@@ -87,15 +86,37 @@ def process_opcode(code: list, index: int, input: int = None) -> int:
         code[third] = (code[first] if mode1 == 0 else first) * (code[second] if mode2 == 0 else second)
         return process_opcode(code, index + 4)
     elif opcode == 3:
-        code[first] = input
+        code[first] = input_parameter
         return process_opcode(code, index + 2)
     elif opcode == 4:
         x = code[first] if mode1 == 0 else first
         print(x)
         return process_opcode(code, index + 2, (code[first] if mode1 == 0 else first))
+    elif opcode == 5:
+        if (code[first] if mode1 == 0 else first) != 0:
+            return process_opcode(code, (code[second] if mode2 == 0 else second))
+        else:
+            return process_opcode(code, index + 3)
+    elif opcode == 6:
+        if (code[first] if mode1 == 0 else first) == 0:
+            return process_opcode(code, (code[second] if mode2 == 0 else second))
+        else:
+            return process_opcode(code, index + 3)
+    elif opcode == 7:
+        if (code[first] if mode1 == 0 else first) < (code[second] if mode2 == 0 else second):
+            code[third] = 1
+        else:
+            code[third] = 0
+        return process_opcode(code, index + 4)
+    elif opcode == 8:
+        if (code[first] if mode1 == 0 else first) == (code[second] if mode2 == 0 else second):
+            code[third] = 1
+        else:
+            code[third] = 0
+        return process_opcode(code, index + 4)
     else:
         print("Opcode error: must be 99, 1, 2, 3, or 4.")
-        print("Opcode: " + opcode)
+        print("Opcode: " + str(opcode))
         # return result
 
 
@@ -103,11 +124,18 @@ def change_noun_verb(code, given_noun: int, given_verb: int):
     code[1] = given_noun
     code[2] = given_verb
 
-#print(working_code)
+
+# print(working_code)
 print("Ready for processing.")
-#print(len(working_code))
+# print(len(working_code))
 
 print("Processing main input....")
 print("Results:")
-process_opcode(working_code, 0, 1)
-#print(working_code)
+
+# Processing for part 1 Air Conditioner diagnostics
+#process_opcode(working_code, 0, 1)
+
+# Processing for part 2 Thermal Radiators diagnostics
+process_opcode(working_code, 0, 5)
+
+# print(working_code)

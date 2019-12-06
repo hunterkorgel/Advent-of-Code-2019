@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -22,7 +29,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration name="day5" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="day6" type="PythonConfigurationType" factoryName="Python">
       <module name="Advent-of-Code-2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -34,7 +41,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,34 +76,69 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="440" y="189" key="#Notifications" timestamp="1575655891663">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
     <state x="440" y="189" key="#Notifications/0.23.1680.1002@0.23.1680.1002" timestamp="1575655891663" />
-    <state x="304" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575656888176">
+    <state x="304" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575660698386">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
-    <state x="304" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1002@0.23.1680.1002" timestamp="1575656888176" />
-    <state width="1659" height="271" key="GridCell.Tab.0.bottom" timestamp="1575657053891">
+    <state x="304" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1002@0.23.1680.1002" timestamp="1575660698386" />
+    <state width="1659" height="335" key="GridCell.Tab.0.bottom" timestamp="1575672742066">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
-    <state width="1659" height="271" key="GridCell.Tab.0.bottom/0.23.1680.1002@0.23.1680.1002" timestamp="1575657053891" />
-    <state width="1659" height="271" key="GridCell.Tab.0.center" timestamp="1575657053890">
+    <state width="1659" height="335" key="GridCell.Tab.0.bottom/0.23.1680.1002@0.23.1680.1002" timestamp="1575672742066" />
+    <state width="1659" height="335" key="GridCell.Tab.0.center" timestamp="1575672742065">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
-    <state width="1659" height="271" key="GridCell.Tab.0.center/0.23.1680.1002@0.23.1680.1002" timestamp="1575657053890" />
-    <state width="1659" height="271" key="GridCell.Tab.0.left" timestamp="1575657053890">
+    <state width="1659" height="335" key="GridCell.Tab.0.center/0.23.1680.1002@0.23.1680.1002" timestamp="1575672742065" />
+    <state width="1659" height="335" key="GridCell.Tab.0.left" timestamp="1575672742065">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
-    <state width="1659" height="271" key="GridCell.Tab.0.left/0.23.1680.1002@0.23.1680.1002" timestamp="1575657053890" />
-    <state width="1659" height="271" key="GridCell.Tab.0.right" timestamp="1575657053891">
+    <state width="1659" height="335" key="GridCell.Tab.0.left/0.23.1680.1002@0.23.1680.1002" timestamp="1575672742065" />
+    <state width="1659" height="335" key="GridCell.Tab.0.right" timestamp="1575672742066">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
-    <state width="1659" height="271" key="GridCell.Tab.0.right/0.23.1680.1002@0.23.1680.1002" timestamp="1575657053891" />
+    <state width="1659" height="335" key="GridCell.Tab.0.right/0.23.1680.1002@0.23.1680.1002" timestamp="1575672742066" />
+    <state width="1659" height="335" key="GridCell.Tab.1.bottom" timestamp="1575672742067">
+      <screen x="0" y="23" width="1680" height="1002" />
+    </state>
+    <state width="1659" height="335" key="GridCell.Tab.1.bottom/0.23.1680.1002@0.23.1680.1002" timestamp="1575672742067" />
+    <state width="1659" height="335" key="GridCell.Tab.1.center" timestamp="1575672742067">
+      <screen x="0" y="23" width="1680" height="1002" />
+    </state>
+    <state width="1659" height="335" key="GridCell.Tab.1.center/0.23.1680.1002@0.23.1680.1002" timestamp="1575672742067" />
+    <state width="1659" height="335" key="GridCell.Tab.1.left" timestamp="1575672742067">
+      <screen x="0" y="23" width="1680" height="1002" />
+    </state>
+    <state width="1659" height="335" key="GridCell.Tab.1.left/0.23.1680.1002@0.23.1680.1002" timestamp="1575672742067" />
+    <state width="1659" height="335" key="GridCell.Tab.1.right" timestamp="1575672742067">
+      <screen x="0" y="23" width="1680" height="1002" />
+    </state>
+    <state width="1659" height="335" key="GridCell.Tab.1.right/0.23.1680.1002@0.23.1680.1002" timestamp="1575672742067" />
+    <state width="840" height="500" key="XDebugger.FullValuePopup" timestamp="1575666885949">
+      <screen x="0" y="23" width="1680" height="1002" />
+    </state>
+    <state width="840" height="500" key="XDebugger.FullValuePopup/0.23.1680.1002@0.23.1680.1002" timestamp="1575666885949" />
     <state x="629" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575657149100">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
     <state x="629" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.1002@0.23.1680.1002" timestamp="1575657149100" />
+    <state x="505" y="244" width="670" height="676" key="search.everywhere.popup" timestamp="1575664961376">
+      <screen x="0" y="23" width="1680" height="1002" />
+    </state>
+    <state x="505" y="244" width="670" height="676" key="search.everywhere.popup/0.23.1680.1002@0.23.1680.1002" timestamp="1575664961376" />
   </component>
 </project>

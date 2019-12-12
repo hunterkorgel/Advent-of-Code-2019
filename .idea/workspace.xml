@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2e1e6e52-8779-4814-8f84-0606abb949a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day7.2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/intcode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/hunter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/hunter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intcode_final.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +37,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="day7.2" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="day9" type="PythonConfigurationType" factoryName="Python">
       <module name="Advent-of-Code-2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -46,7 +55,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day7.2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day9.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,46 +108,46 @@
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
     <state x="440" y="189" key="#Notifications/0.23.1680.1002@0.23.1680.1002" timestamp="1575655891663" />
-    <state x="304" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576027944481">
+    <state x="304" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576174303412">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
-    <state x="304" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1002@0.23.1680.1002" timestamp="1576027944481" />
+    <state x="304" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1002@0.23.1680.1002" timestamp="1576174303412" />
     <state x="729" y="234" key="#xdebugger.evaluate" timestamp="1576085715472">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
     <state x="729" y="234" key="#xdebugger.evaluate/0.23.1680.1002@0.23.1680.1002" timestamp="1576085715472" />
-    <state width="729" height="881" key="GridCell.Tab.0.bottom" timestamp="1576099953010">
+    <state width="413" height="427" key="GridCell.Tab.0.bottom" timestamp="1576188548024">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
-    <state width="729" height="881" key="GridCell.Tab.0.bottom/0.23.1680.1002@0.23.1680.1002" timestamp="1576099953010" />
-    <state width="729" height="881" key="GridCell.Tab.0.center" timestamp="1576099953009">
+    <state width="413" height="427" key="GridCell.Tab.0.bottom/0.23.1680.1002@0.23.1680.1002" timestamp="1576188548024" />
+    <state width="413" height="427" key="GridCell.Tab.0.center" timestamp="1576188548023">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
-    <state width="729" height="881" key="GridCell.Tab.0.center/0.23.1680.1002@0.23.1680.1002" timestamp="1576099953009" />
-    <state width="729" height="881" key="GridCell.Tab.0.left" timestamp="1576099953009">
+    <state width="413" height="427" key="GridCell.Tab.0.center/0.23.1680.1002@0.23.1680.1002" timestamp="1576188548023" />
+    <state width="413" height="427" key="GridCell.Tab.0.left" timestamp="1576188548023">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
-    <state width="729" height="881" key="GridCell.Tab.0.left/0.23.1680.1002@0.23.1680.1002" timestamp="1576099953009" />
-    <state width="729" height="881" key="GridCell.Tab.0.right" timestamp="1576099953010">
+    <state width="413" height="427" key="GridCell.Tab.0.left/0.23.1680.1002@0.23.1680.1002" timestamp="1576188548023" />
+    <state width="413" height="427" key="GridCell.Tab.0.right" timestamp="1576188548023">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
-    <state width="729" height="881" key="GridCell.Tab.0.right/0.23.1680.1002@0.23.1680.1002" timestamp="1576099953010" />
-    <state width="1659" height="396" key="GridCell.Tab.1.bottom" timestamp="1576099938908">
+    <state width="413" height="427" key="GridCell.Tab.0.right/0.23.1680.1002@0.23.1680.1002" timestamp="1576188548023" />
+    <state width="1659" height="396" key="GridCell.Tab.1.bottom" timestamp="1576186674377">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
-    <state width="1659" height="396" key="GridCell.Tab.1.bottom/0.23.1680.1002@0.23.1680.1002" timestamp="1576099938908" />
-    <state width="1659" height="396" key="GridCell.Tab.1.center" timestamp="1576099938907">
+    <state width="1659" height="396" key="GridCell.Tab.1.bottom/0.23.1680.1002@0.23.1680.1002" timestamp="1576186674377" />
+    <state width="1659" height="396" key="GridCell.Tab.1.center" timestamp="1576186674376">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
-    <state width="1659" height="396" key="GridCell.Tab.1.center/0.23.1680.1002@0.23.1680.1002" timestamp="1576099938907" />
-    <state width="1659" height="396" key="GridCell.Tab.1.left" timestamp="1576099938907">
+    <state width="1659" height="396" key="GridCell.Tab.1.center/0.23.1680.1002@0.23.1680.1002" timestamp="1576186674376" />
+    <state width="1659" height="396" key="GridCell.Tab.1.left" timestamp="1576186674376">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
-    <state width="1659" height="396" key="GridCell.Tab.1.left/0.23.1680.1002@0.23.1680.1002" timestamp="1576099938907" />
-    <state width="1659" height="396" key="GridCell.Tab.1.right" timestamp="1576099938908">
+    <state width="1659" height="396" key="GridCell.Tab.1.left/0.23.1680.1002@0.23.1680.1002" timestamp="1576186674376" />
+    <state width="1659" height="396" key="GridCell.Tab.1.right" timestamp="1576186674377">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
-    <state width="1659" height="396" key="GridCell.Tab.1.right/0.23.1680.1002@0.23.1680.1002" timestamp="1576099938908" />
+    <state width="1659" height="396" key="GridCell.Tab.1.right/0.23.1680.1002@0.23.1680.1002" timestamp="1576186674377" />
     <state width="840" height="500" key="XDebugger.FullValuePopup" timestamp="1575666885949">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
@@ -147,10 +156,10 @@
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
     <state x="629" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.1002@0.23.1680.1002" timestamp="1575657149100" />
-    <state x="505" y="244" width="670" height="676" key="search.everywhere.popup" timestamp="1575664961376">
+    <state x="505" y="244" width="670" height="676" key="search.everywhere.popup" timestamp="1576103470830">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
-    <state x="505" y="244" width="670" height="676" key="search.everywhere.popup/0.23.1680.1002@0.23.1680.1002" timestamp="1575664961376" />
+    <state x="505" y="244" width="670" height="676" key="search.everywhere.popup/0.23.1680.1002@0.23.1680.1002" timestamp="1576103470830" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -188,4 +188,3 @@ class IntCode:
         self.active = 1
         while len(self.ram) < 3 and self.active == 1:
             self.executeOpcode()
-        self.active = 0
